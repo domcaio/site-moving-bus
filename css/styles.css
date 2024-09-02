@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f89940;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Adicione este bloco ao seu styles.css para tornar as imagens responsivas e menores */
+#about-software img, 
+#team img {
+    max-width: 80%; /* Ajuste o valor conforme necessário */
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* #about-software img, #team img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+} */
+
+.floating-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.floating-box h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.floating-box p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#cta form {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+#cta input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#cta button {
+    background-color: #0044cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#cta button:hover {
+    background-color: #0033a1;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
